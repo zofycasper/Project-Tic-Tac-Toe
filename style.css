@@ -1,0 +1,54 @@
+:root {
+    --cyan: #00e8c6;
+    --gray: #d5ced9;
+    --dark: #23262e;
+    --green: #96e072;
+    --red: #ee5d43;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--dark);
+}
+
+.play-area {
+    display: grid;
+    /* width: 480px;
+    height: 480px; */
+    border: 2px solid var(--gray);
+    font-size: 3rem;
+    color: var(--green);
+}
+
+.unit {
+    height: 160px;
+    width: 160px;
+    border: 2px solid #d5ced9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: var(--cyan);
+}
+
+button {
+    height: 5rem;
+    width: 10rem;
+    font-size: 1rem;
+    background-color: var(--red);
+    border: 0px;
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: #be503c;
+    color: rgb(201, 201, 201);
+}
